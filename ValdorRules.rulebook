@@ -34,6 +34,14 @@
         },
         "text": "In your Command Phase, selected one First of the Ten Thousand ability (see left). Until the start of your next Command phase, this model has that ability.\n\nPrimarch In All But Name: This model gains the Feel No Pain 6+ ability.\n\nChampion Of Terra: This model can use both Martial Ka'tah stances during the Fight Phase.\n\nThe Emperor's Spear (Aura): Each friendly ADEPTUS CUSTODES unit that is within 6\" of this model adds 2\" to their move characteristic."
       },
+      "Ability§Invulnerable 3+": {
+        "stats": {
+          "abilityName": {
+            "value": "Invulnerable 3+"
+          }
+        },
+        "text": "This model has a 3+ Invulnerable Save"
+      },
       "Ability§The Corinthine Warplate": {
         "stats": {
           "abilityName": {
@@ -52,7 +60,8 @@
             "Ability§Supreme Commander",
             "Ranged Weapon§Apollonian Spear",
             "Melee Weapon§Apollonian Spear - Strike",
-            "Melee Weapon§Apollonian Spear - Sweep"
+            "Melee Weapon§Apollonian Spear - Sweep",
+            "Ability§Invulnerable 3+"
           ]
         },
         "keywords": {
@@ -71,7 +80,7 @@
         },
         "stats": {
           "Base": {
-            "value": "40"
+            "value": "60"
           },
           "Ld": {
             "value": 5
