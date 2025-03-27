@@ -1,0 +1,179 @@
+{
+  "name": "Custodes Valdor",
+  "revision": "0.0.1",
+  "game": "Warhammer 40k",
+  "genre": "generic",
+  "publisher": "",
+  "url": "",
+  "notes": "",
+  "wip": true,
+  "dependencies": [
+    {
+      "slug": "7WTJNJ",
+      "name": "Adeptus Custodes Copy",
+      "game": "Warhammer 40k",
+      "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k10e/main/Adeptus_Custodes.rulebook"
+    }
+  ],
+  "rulebook": {
+    "assetTaxonomy": {},
+    "assetCatalog": {
+      "Ability§Emperor's Will": {
+        "stats": {
+          "abilityName": {
+            "value": "Emperor's Will"
+          }
+        },
+        "text": "While this model is within 3\" of an ADEPTUS CUSTODES INFANTRY unit, this unit has the Lone Operative ability."
+      },
+      "Ability§First Of The Ten Thousand": {
+        "stats": {
+          "abilityName": {
+            "value": "First Of The Ten Thousand"
+          }
+        },
+        "text": "In your Command Phase, selected one First of the Ten Thousand ability (see left). Until the start of your next Command phase, this model has that ability.\n\nPrimarch In All But Name: This model gains the Feel No Pain 6+ ability.\n\nChampion Of Terra: This model can use both Martial Ka'tah stances during the Fight Phase.\n\nThe Emperor's Spear (Aura): Each friendly ADEPTUS CUSTODES unit that is within 6\" of this model adds 2\" to their move characteristic."
+      },
+      "Ability§The Corinthine Warplate": {
+        "stats": {
+          "abilityName": {
+            "value": "The Corinthine Warplate"
+          }
+        },
+        "text": "Once per battle, in your Command phase, you can activate this ability. If you do so then until your next Command Phase all friendly ADEPTUS CUSTODES units on the battlefield can re-roll failed battle shock tests."
+      },
+      "Character§Constantin Valdor": {
+        "assets": {
+          "traits": [
+            "Ability§First Of The Ten Thousand",
+            "Ability§Emperor's Will",
+            "Ability§Martial Ka’tah",
+            "Ability§The Corinthine Warplate",
+            "Ability§Supreme Commander",
+            "Ranged Weapon§Apollonian Spear",
+            "Melee Weapon§Apollonian Spear - Strike",
+            "Melee Weapon§Apollonian Spear - Sweep"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "10th Edition Codex",
+            "Adeptus Custodes",
+            "Character",
+            "Constantin Valdor",
+            "Epic Hero",
+            "Imperium",
+            "Monster"
+          ],
+          "Category": [
+            "Epic Hero"
+          ]
+        },
+        "stats": {
+          "Base": {
+            "value": "40"
+          },
+          "Ld": {
+            "value": 5
+          },
+          "M": {
+            "value": 8
+          },
+          "OC": {
+            "value": 4
+          },
+          "Points": {
+            "value": 320
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 9
+          },
+          "W": {
+            "value": 10
+          }
+        }
+      },
+      "Melee Weapon§Apollonian Spear - Strike": {
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "10th Edition Codex"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 7
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
+          },
+          "S": {
+            "value": 14
+          },
+          "WS": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Apollonian Spear - Sweep": {
+        "stats": {
+          "A": {
+            "value": 14
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          },
+          "S": {
+            "value": 7
+          },
+          "WS": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Apollonian Spear": {
+        "assets": {
+          "traits": [
+            "Ability§Assault"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 2
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Roster§Roster": {}
+    },
+    "gameModes": {},
+    "theme": {}
+  }
+}
